@@ -212,13 +212,13 @@ ___Пример резултата:___
 
 Methods | Routes
 ------- | ------ |
-`GET|HEAD/`   | movies.index › MoviesController@index |
+`GET/HEAD`    | movies.index › MoviesController@index |
 `POST`        | _ignition/execute-solution | ignition.executeSolution › Spatie\LaravelIgnition › ExecuteSolutionController
-`GET|HEAD`    | _ignition/health-check | ignition.healthCheck › Spatie\LaravelIgnition › HealthCheckController
+`GET/HEAD`    | _ignition/health-check | ignition.healthCheck › Spatie\LaravelIgnition › HealthCheckController
 `POST`        | _ignition/update-config | ignition.updateConfig › Spatie\LaravelIgnition › UpdateConfigController
-`GET|HEAD`    | api/user | generated::fvRQHk9WTpY4i4fX
-`GET|HEAD`    | movies/{movie} | movies.show › MoviesController@show
-`GET|HEAD`    | sanctum/csrf-cookie | sanctum.csrf-cookie › Laravel\Sanctum › CsrfCookieController@show
+`GET/HEAD`    | api/user | generated::fvRQHk9WTpY4i4fX
+`GET/HEAD`    | movies/{movie} | movies.show › MoviesController@show
+`GET/HEAD`    | sanctum/csrf-cookie | sanctum.csrf-cookie › Laravel\Sanctum › CsrfCookieController@show
 
 
 
